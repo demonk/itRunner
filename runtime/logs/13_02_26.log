@@ -1,0 +1,6 @@
+[ 2013-02-26T00:25:26+08:00 ] ERR: (ThinkException) 无法加载模块:User
+[ 2013-02-26T00:26:02+08:00 ] ERR: [1] Call to undefined function _post() E:\task\PHP\itRunner\lib\Action\admin\UserAction.class.php 第 12 行.
+[ 2013-02-26T00:26:48+08:00 ] ERR: [1] Function name must be a string E:\task\PHP\itRunner\lib\Action\admin\UserAction.class.php 第 12 行.
+[ 2013-02-26T00:27:05+08:00 ] ERR: [64] Cannot use [] for reading E:\task\PHP\itRunner\lib\Action\admin\UserAction.class.php 第 13 行.
+[ 2013-02-26T00:27:10+08:00 ] ERR: [1] Class 'RelationModel' not found E:\task\PHP\itRunner\lib\Model\UserModel.class.php 第 4 行.
+[ 2013-02-26T00:38:51+08:00 ] ERR: [1] Function name must be a string E:\task\PHP\itRunner\lib\Model\UserModel.class.php 第 21 行.

@@ -1,0 +1,20 @@
+<extend name="./tpl/public/base.html"/>
+
+<block name="title">{$title}</block>
+
+<block name="main">
+    {$type}
+    <form action="__APP__/admin/User/login" method="post">
+        <label for="username"><input type="text" name="username"></label>
+        <label for="password"><input type="password" name="password"></label>
+        <input type="submit">
+    </form>
+    
+    <if condition="($isLogin)">
+        Has Login
+        <else/>
+        No Login Yet
+    </if>
+    
+    
+</block>
